@@ -4,6 +4,8 @@ var name2 = 325.235236236;
 var name3 = true;
 var name4 = '\t';
 
+var input = 'd';
+
 var a = 14;
 var b = 12.6;
 
@@ -13,7 +15,7 @@ var d = name3 + name3;
 
 var f = (a==b);
 
-var s = [1,2,35,5,547,568,7,5,3];
+var s = ['Gragory','Ilya',5,547,568,7,5,3];
 
 for(var i = 0; i < s.length; i++)  // цикл
 {
@@ -30,7 +32,13 @@ while(name[j]!=' ')  // бесконечный цикл, пишем его, ес
 
 function Add(arg1,arg2)
 {    
-    return arg1 + arg2;  // присваевает значение Add, а потом это перехожит в res
+    add(arg1+1,arg2+2)  // присваевает значение Add, а потом это перехожит в res
+}
+
+var sum = 1;
+for(var j = 5; j > 0; j--)
+{
+    sum = sum * j;
 }
 
 function simple(arg1, next)
