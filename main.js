@@ -27,11 +27,6 @@ while(name[j]!=' ')  // бесконечный цикл, пишем его, ес
     j++; // прибавляет значение к j
 }
 
-function funk(a,b)
-{
-    dsfsdfdsgdshdsf
-}
-
 console.log(j);
 
 
