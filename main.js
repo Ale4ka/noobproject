@@ -26,3 +26,25 @@ while(name[j]!=' ')  // бесконечный цикл, пишем его, ес
 {
     j++; // прибавляет значение к j
 }
+
+
+function Add(arg1,arg2)
+{    
+    return arg1 + arg2;  // присваевает значение Add, а потом это перехожит в res
+}
+
+function simple(arg1, next)
+{
+    if(arg1 == 12 )
+        next();
+}
+
+simple(12, function() {
+    console.log("KEK");
+})
+
+
+var res = Add(10,12);
+console.log(res);
+
+console.log(Add(10,12))
